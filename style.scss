@@ -1,0 +1,47 @@
+$font-stack:    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$light-gray: lightgrey;
+
+p, td, th{
+    font-family: $font-stack;
+    margin-top: 20vh;
+}
+html{
+    background-color: $light-gray;
+}
+body{
+    background-color: $light-gray
+}
+li {
+    float: left;
+    border-right:1px solid rgb(110, 110, 110);
+  
+     &:last-child {
+        border-right: none;
+    }
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none !important;
+    :hover:not(.active) {
+        background-color: #111;
+        color: white;
+      }  
+  }
+}
+  %width-img{
+      width: 100px;
+  }
+  #tt-pic{
+      @extend %width-img;
+      border-color: rgb(203, 203, 255);
+  }
+  #mel-pic{
+    @extend %width-img;
+    border-color: rgb(255, 226, 171);
+}
+#pool-pic{
+    @extend %width-img;
+    border-color: rgb(190, 190, 190);
+}

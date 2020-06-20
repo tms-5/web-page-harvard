@@ -1,0 +1,89 @@
+p, td, th {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-top: 20vh;
+}
+
+html {
+  background-color: lightgrey;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #6e6e6e;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none !important;
+}
+
+li a :hover:not(.active) {
+  background-color: #111;
+  color: white;
+}
+.window{
+  background-color: white;
+  width: 45vw !important;
+  height: 60vh !important;
+  margin: auto;
+  text-align: center;
+  margin-top: 15vh;
+  padding: 10px;
+}   
+
+.marg{
+  margin-top: 05vh !important;
+}
+span{
+  font-size: 32px;
+  font-weight: bold;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(99, 99, 99);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.active {
+  background-color: #4CAF50;
+}
+#myPic{
+  width :150px;
+}
+@media (max-width: 600px){
+    .window{
+        width: 80vw !important;
+    }
+}
+#tt-pic, #mel-pic, #pool-pic {
+  width: 100px;
+}
+
+#tt-pic {
+  border-color: #cbcbff;
+}
+
+#mel-pic {
+  border-color: #ffe2ab;
+}
+
+#pool-pic {
+  border-color: #bebebe;
+}
+/*# sourceMappingURL=style.css.map */
